@@ -1,0 +1,160 @@
+/* styles for whole page */
+* {
+  font-family: Trebuchet MS;
+}
+html {
+  background-color: #0a2c5a;
+}
+/* background image style */
+main {
+  background-image: url("wp5231551-4k-gaming-wallpapers.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #0a2c5a;
+}
+/* nav bar style */
+.top-nav {
+  background-color: #0a2c5a;
+  overflow: hidden;
+  color: #f1f1f3;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f1f1f3;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+}
+/* hover for about us*/
+.topnav-right a:hover {
+  background-color: #efd5c6;
+  color: #0a2c5a;
+}
+/*instructions and title styles*/
+#hero {
+  background-color: #155d8d;
+  opacity: 0.8;
+  color: #f1f1f3;
+  opacity: 0.9;
+  font-size: medium;
+}
+/* instructions positioning*/
+.info {
+  text-align: center;
+}
+/*directions positioning*/
+.directions {
+  margin-top: 5px;
+  text-align: center;
+}
+/* cards styling*/
+.row {
+  display: table;
+  color: #f1f1f3;
+  padding-left: 90px;
+
+  border-spacing: 10px;
+}
+/* cards alignment*/
+.column {
+  border-radius: 12px;
+  display: table-cell;
+  background-color: #155d8d;
+  background-size: 1px;
+  opacity: 0.8;
+  border-style: hidden;
+}
+/*dropdown styles*/
+.value {
+  border-radius: 12px;
+  color: #f1f1f3;
+}
+/* submit button*/
+#submit {
+  color: #f1f1f3;
+  font-size: 18px;
+  font-family: Trebuchet MS;
+}
+/*game suggests positioning*/
+.move {
+  padding-left: 540px;
+}
+/* card positioning*/
+.card {
+  justify-content: space-between;
+}
+/* content color*/
+.card-content {
+  background-color: #f1f1f3;
+}
+/* card title styles*/
+.title {
+  font-size: 19px;
+  text-align: center;
+}
+/*card text alignment*/
+span {
+  text-align: center;
+}
+/* card footer color*/
+.card-footer {
+  background-color: #f1f1f3;
+}
+@media screen and (max-width: 768px) {
+  .row {
+    display: inline;
+  }
+
+  .column {
+    display: block;
+    background-color: rgba(0, 0, 0, .0);
+    background-position: center;
+    float: inline-start;
+  }
+
+  #submit {
+    background-color: #f1f1f3;
+    color: black;
+    padding-top: 20;
+  }
+  
+  .move {
+    padding-left: 1px;
+    padding-top: 50px;
+  }
+}
+  /* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+  @media screen and (max-width: 575px) {
+    .row {
+      display: inline;
+    }
+  
+    .column {
+      display: flex;
+      background-color: rgba(0, 0, 0, .0);
+      background-position: center;
+      float: left;
+    }
+
+    #submit {
+      background-color: #f1f1f3;
+      color: black;
+      padding-top: 20;
+    }
+    
+    .move {
+      padding-left: 1px;
+      padding-top: 50px;
+    }
+
+  }
